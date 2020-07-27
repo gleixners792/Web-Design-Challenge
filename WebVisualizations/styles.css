@@ -84,6 +84,12 @@ body {
   padding-bottom: 2px;
 }
 
+.e-pad {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
 .float-top {
   max-width: 100%;
   height: auto;
@@ -119,11 +125,12 @@ table {
     padding-left: 50px;
     padding-bottom: 50px;
   }
-
-  .d-pad {
-    padding-top: 250px;
-    padding-right: 2px;
-    padding-left: 2px;
-    padding-bottom: 2px;
+  
+  .e-pad {
+    padding-top: 275px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
   }
+
 }
