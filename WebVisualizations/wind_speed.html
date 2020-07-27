@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wind Speed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">Lattitude</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    </div>
+                </li>
+
+
+                <span class="nav-item">
+                    <a class="nav-link" href="compare.html">Comparsion <span class="sr-only">(current)</span></a>
+                </span>
+
+                <span class="nav-item">
+                    <a class="nav-link" href="data_look.html">Data</a>
+                </span>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Creates the Overall Grid -->
+
+    <div class="container-fluid">
+
+        <div class="row c-pad">
+
+            <div class="jumbotron text-left col-md-7">
+                <h1 class="display-5">Wind Speed</h1>
+                <hr class="my-4">
+
+
+                <img src="Resources/assests/images/Fig4.png"" class=" img-fluid float-top" alt="Responsive image">
+                <p class="text">When looking at this chart, you can see that the data is widely dispersed. Since that
+                    data is widely dispersed, you can conclude that there is no correlation between the latitude of the
+                    city and the measured wind speed levels. There are other factors other than latitude that impact the
+                    cities wind speed levels for the city data collected.</p>
+
+
+            </div>
+
+            <div class="jumbotron text-left col-sm-4">
+                <h3 class="display-7">Visualizations</h3>
+                <hr class="my-4">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <img src="Resources/assests/images/Fig1.png"" class=" img-fluid float-left"
+                                alt="Responsive image">
+                            <img src="Resources/assests/images/Fig2.png"" class=" img-fluid float-right"
+                                alt="Responsive image">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="Resources/assests/images/Fig3.png"" class=" img-fluid float-left"
+                                alt="Responsive image">
+                            <img src="Resources/assests/images/Fig4.png"" class=" img-fluid float-right"
+                                alt="Responsive image">
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+/* Giving the body the specified background color */
+body {
+  background: #f1f1f1;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+}
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+
+.navbar-brand {
+  color: white !important;
+  background-color: #4e627262;
+  background-size: 500px 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 75px;
+  font-family: serif;
+  font-size: x-large;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: rgb(81, 53, 184)  !important;
+}
+
+.c-pad {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbotron {
+  margin-left: 30px;
+  background-color: white !important;
+}
+
+.b-margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jumbotron h1 {
+  font-family: serif;
+  color: #4e627262;
+  font-weight: bold;
+
+}
+.jumbotron h3 {
+  font-family: serif;
+  color: #4e627262;
+  font-weight: bold;
+}
+
+.gh-title {
+  font-family: serif;
+  color: #4e627262;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+
+}
+
+.float-bottom {
+  max-width: 100%;
+  height: auto;
+ }
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
+.d-pad {
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+.float-top {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 2.0;
+}
+
+table {
+  border: solid white
+}
+  
+@media (max-width: 992px) {
+
+  .navbar.navbar-expand-lg .navbar-toggler .navbar-light {
+    margin-right: 110px;
+    border: none;
+    margin-top: 10px;
+  }
+  .navbar.navbar-expand-lg .navbar-navbar .nav-link .dropdown-menu {
+    margin-right: -10px;
+  }
+  .navbar-navbar {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+  }
+
+  .c-pad {
+    padding-top: 300px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  .d-pad {
+    padding-top: 250px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+  }
+}
